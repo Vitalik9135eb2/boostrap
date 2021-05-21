@@ -242,12 +242,64 @@ span{
 .img__smal-wrap{
 
 }
+.blog__slider-title{
+    font-size: 36px;
+    color: #3D4F9F;
+    font-weight: 400;
+    margin: -10px 75px 0 0;
+}
+.blog__text{
+    font-size: 14px;
+    color: #8D96BD;
+    max-width: 365px;
+    margin: 32px 70px 0 10px;
+    line-height: 26.4px;    
+}
+
+.carousel-indicators{
+    margin: -100px 0;
+}
 .carousel-indicators li{
+    margin-right: 10px;
     border-radius: 50%;
     background-color: #5283FF;
     width: 8px;
     height: 8px;
 }
+.icon__left{
+    position: relative;
+}
+.icon__left::before{
+    position: absolute;
+    content: "";
+    background-image: url("./../assets/img/blog/Vector.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width: 23px;
+    height: 15px;
+    top: 0;
+    left: -176px;
+    
+}
+
+.icon__right{
+    position: relative;
+}
+.icon__right::before{
+    position: absolute;
+    content: "";
+    background-image: url("./../assets/img/blog/Vector.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width: 23px;
+    height: 15px;
+    top: 0;
+    right: -175px;
+    transform: rotate(180deg    );
+    
+}
+
+
 
 
 
