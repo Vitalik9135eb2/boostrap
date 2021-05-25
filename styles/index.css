@@ -58,8 +58,8 @@ span{
     background-size: 55%;
     background-position: 105% 100%;
     padding: 208px 0 215px;
-
 }
+
 .plan__subtitle{
     margin-bottom: 30px;
     font-size: 10px;
@@ -440,7 +440,7 @@ span{
     font-size: 13px;
     color: #FFF;
     margin-left: 15px;
-    padding: 20px 60px;
+ 
     border-radius: 5px;
     border:none;
 }
